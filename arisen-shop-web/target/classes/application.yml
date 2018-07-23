@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        name: test
+        url: jdbc:mysql://localhost:3306/pinyougoudb?characterEncoding=utf-8
+        username: root
+        password: newsys
+        driver-class-name: org.mariadb.jdbc.Driver
+
+
+mybatis:
+  mapper-locations: classpath:com/arisen/mapper/*.xml
+  type-aliases-package: com.arisen.pojo
+          

@@ -1,0 +1,9 @@
+com\arisen\sellergoods\service\ItemService.class
+com\arisen\sellergoods\service\BrandService.class
+com\arisen\sellergoods\service\SellerService.class
+com\arisen\sellergoods\service\SpecificationService.class
+com\arisen\sellergoods\service\GoodsService.class
+com\arisen\sellergoods\service\SpecificationOptionService.class
+com\arisen\sellergoods\service\TypeTemplateService.class
+com\arisen\sellergoods\service\ItemCatService.class
+com\arisen\sellergoods\service\GoodsDescService.class

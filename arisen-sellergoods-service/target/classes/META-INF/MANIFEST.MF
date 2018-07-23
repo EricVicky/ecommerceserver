@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: arisen-sellergoods-service
+Implementation-Version: 0.0.3-SNAPSHOT
+Built-By: ebwang
+Implementation-Vendor-Id: com.arisen
+Build-Jdk: 1.8.0_77
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/arisen-parent/arisen-sellergoods-service
+Created-By: Maven Integration for Eclipse
+
