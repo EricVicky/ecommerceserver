@@ -3,6 +3,7 @@ import java.util.List;
 
 import com.arisen.pojo.TbGoods;
 import com.arisen.pojo.TbItem;
+import com.arisen.pojo.TbMarketGoods;
 import com.arisen.pojo.group.Goods;
 
 import entity.PageResult;
@@ -77,4 +78,6 @@ public interface GoodsService {
 /////////////////////////////////////////////////////////////////////////////////////////////
 	
 	public List<TbGoods> listAllGoods(String seller_id);
+	
+	public void updateMarketPrice(TbMarketGoods marketGoods);
 }

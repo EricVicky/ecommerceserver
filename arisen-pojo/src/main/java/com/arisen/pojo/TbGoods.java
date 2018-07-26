@@ -20,7 +20,7 @@ public class TbGoods implements Serializable{
 
     private String caption;
 
-    private Long category1Id;
+    private Long categoryId;
 
     private Long category2Id;
 
@@ -29,6 +29,8 @@ public class TbGoods implements Serializable{
     private String smallPic;
 
     private BigDecimal price;
+    
+    private BigDecimal marketPrice;
 
     private Long typeTemplateId;
 
@@ -100,12 +102,12 @@ public class TbGoods implements Serializable{
         this.caption = caption == null ? null : caption.trim();
     }
 
-    public Long getCategory1Id() {
-        return category1Id;
+    public Long getCategoryId() {
+        return categoryId;
     }
 
-    public void setCategory1Id(Long category1Id) {
-        this.category1Id = category1Id;
+    public void setCategoryId(Long categoryId) {
+        this.categoryId = categoryId;
     }
 
     public Long getCategory2Id() {
@@ -163,4 +165,14 @@ public class TbGoods implements Serializable{
     public void setIsDelete(String isDelete) {
         this.isDelete = isDelete == null ? null : isDelete.trim();
     }
+
+	public BigDecimal getMarketPrice() {
+		return marketPrice;
+	}
+
+	public void setMarketPrice(BigDecimal marketPrice) {
+		this.marketPrice = marketPrice;
+	}
+    
+    
 }

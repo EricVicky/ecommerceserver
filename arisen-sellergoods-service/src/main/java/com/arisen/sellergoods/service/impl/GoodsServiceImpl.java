@@ -23,6 +23,7 @@ import com.arisen.pojo.TbGoodsExample.Criteria;
 import com.arisen.pojo.TbItem;
 import com.arisen.pojo.TbItemCat;
 import com.arisen.pojo.TbItemExample;
+import com.arisen.pojo.TbMarketGoods;
 import com.arisen.pojo.TbSeller;
 import com.arisen.pojo.group.Goods;
 import com.arisen.sellergoods.service.GoodsService;
@@ -290,6 +291,12 @@ public class GoodsServiceImpl implements GoodsService {
 	@Override
 	public List<TbGoods> listAllGoods(String seller_id) {
 		return goodsMapper.listAllGoods(seller_id);
+	}
+
+	@Override
+	public void updateMarketPrice(TbMarketGoods marketGoods) {
+		goodsMapper.updateMarketPrice(marketGoods);
+		
 	}
 	
 	
